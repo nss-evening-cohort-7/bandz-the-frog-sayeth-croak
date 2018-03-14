@@ -71,8 +71,8 @@ Now you have all of your work, plus all of your teammate's approved work on one 
 # GitHub Team Process
 
 ## Branch Naming Convention:
-First initial - last initial - ticket number - branchName 
-Ex: az-1-setup
+- First initial - last initial - ticket number - branchName 
+- Ex: az-1-setup
 
 ## Create a PR on GitHub:
 ###### Terminal
