@@ -98,6 +98,7 @@ Now you have all of your work, plus all of your teammate's approved work on one 
 ## If Changes Need to be Made:
 ###### GitHub
 - Comment with any change suggestions in the files changed tab
+- Review Changes and Submit Comments
 - Creator will make changes and push back up
 ###### Slack
 - Creator will alert everyone when changes are made and pushed
