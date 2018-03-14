@@ -95,14 +95,14 @@ Ex: az-1-setup
 - Git checkout az-1-setup
 - Test, test, test
 
-### If changes need to be made:
+### If Changes Need to be Made:
 ###### GitHub
 - Comment with any change suggestions
 - Creator will make changes and push back up
 ###### Slack
 - Creator will alert everyone when changes are made and pushed
 ###### Terminal
-- git pull origin az-1-setup to refresh branch
+- Git pull origin az-1-setup to refresh branch
 - Test, test, test
 
 ### If Everyone is Ready to Merge:
