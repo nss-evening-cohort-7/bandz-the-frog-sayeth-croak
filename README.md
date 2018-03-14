@@ -70,11 +70,11 @@ Now you have all of your work, plus all of your teammate's approved work on one 
 
 # GitHub Team Process
 
-### Branch Naming Convention:
+## Branch Naming Convention:
 First initial - last initial - ticket number - branchName 
 Ex: az-1-setup
 
-### Create a PR on GitHub:
+## Create a PR on GitHub:
 ###### Terminal
 - Git push origin az-1-setup
 ###### GitHub
@@ -84,7 +84,7 @@ Ex: az-1-setup
 - Slack in the team channel to let everyone know you have an open PR
 - Add "Git" Reaction
 
-### Checking out to Remote Branch:
+## Checking out to Remote Branch:
 ###### Terminal
 (On current branch)
 - Git add .
@@ -95,7 +95,7 @@ Ex: az-1-setup
 - Git checkout az-1-setup
 - Test, test, test
 
-### If Changes Need to be Made:
+## If Changes Need to be Made:
 ###### GitHub
 - Comment with any change suggestions
 - Creator will make changes and push back up
@@ -105,7 +105,7 @@ Ex: az-1-setup
 - Git pull origin az-1-setup to refresh branch
 - Test, test, test
 
-### If Everyone is Ready to Merge:
+## If Everyone is Ready to Merge:
 ###### GitHub
 - After everyone has tested
 - Everyone will comment with :+1 
