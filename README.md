@@ -65,3 +65,61 @@ Now you have all of your work, plus all of your teammate's approved work on one 
 * Your team can only have 1 JS file - main.js
 * All your JS should be written in functions.  Wherever possible reuseable functions.
 * At lease 1 of your pages should use a more complex data structure.  This means that one of your arrays should have an array inside each object.  For examle:  Each of your band members could have an array called favoriteSongs that has numbers in it that correspond to ids on your songs array.  To display the favorite songs you have to look the songs up by id.
+
+
+
+# GitHub Team Process
+
+### Branch Naming Convention:
+First initial - last initial - ticket number - branchName 
+Ex: az-1-setup
+
+### Create a PR on GitHub:
+###### Terminal
+- Git push origin az-1-setup
+###### GitHub
+- Open pull request
+- Write a comment to let team know how to test the code
+###### Slack
+- Slack in the team channel to let everyone know you have an open PR
+- Add "Git" Reaction
+
+### Checking out to Remote Branch:
+###### Terminal
+(On current branch)
+- Git add .
+- Git commit -m “wip”
+- Git checkout master
+- Git fetch 
+- Git branch -al
+- Git checkout az-1-setup
+- Test, test, test
+
+### If changes need to be made:
+###### GitHub
+- Comment with any change suggestions
+- Creator will make changes and push back up
+###### Slack
+- Creator will alert everyone when changes are made and pushed
+###### Terminal
+- git pull origin az-1-setup to refresh branch
+- Test, test, test
+
+### If Everyone is Ready to Merge:
+###### GitHub
+- After everyone has tested
+- Everyone will comment with :+1 
+- Creator will Merge
+###### Slack
+- Creator will let everyone know when ready to pull to master
+- Creator will add “Git” reaction so team can search in channel
+###### Terminal
+- Git checkout master
+- Git pull origin master
+- Git checkout WIP branch
+- Git merge master
+###### Slack
+- Team will give :+1 when finished pulling to master
+###### GitHub
+- Creator closes ticket and moved to Done column
+
