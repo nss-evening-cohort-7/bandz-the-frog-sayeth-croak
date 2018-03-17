@@ -11,7 +11,7 @@ body {
 }
 
 .main-nav {
-    background-color: black;
+    background-color: #000;
     position: fixed;
     top: 0;
     left: 0;
@@ -21,23 +21,47 @@ body {
     border-bottom: 1px solid rgb(128, 255, 0);
 }
 
-ul {
+.main-nav ul {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
 }
 
-ul li {
-    font-size: 25px;
-    padding-top: 35px;
-    color: white;
+.logo-left {
+    display: flex;
+}
+
+.logo-left li {
+    padding-right: 50px;
+}
+
+.logo-right {
+    display: flex;
+}
+
+.logo-right li {
+    padding-left: 50px;
+}
+
+.main-nav ul li {
+    font-size: 28px;
+    font-family: 'Neuton', serif;
     list-style-type: none;
-    display: inline;
 }
 
-.nav-logo {
-
+.main-nav ul li a {
+    color: #258E2F;
+    text-decoration: none;
 }
+
+.main-nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #9e9e9e;
+}
+
+
