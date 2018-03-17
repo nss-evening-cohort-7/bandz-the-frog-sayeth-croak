@@ -160,12 +160,12 @@ var albumsArray = [
     {
         title:"Frog Montana",
         releaseDate:"4-08-12",
-        image:""
+        image:"/image/Frog-montana.jpg"
     },
     {
-        title:"",
+        title:"Watch Ya Mouth",
         releaseDate:"03-29-11",
-        image:""
+        image:"/image/ugly-frog-images.jpg"
     },
     
     ]
