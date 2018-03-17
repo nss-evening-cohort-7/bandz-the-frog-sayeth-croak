@@ -1,7 +1,10 @@
 // **************************PRINT TO DOM FUNCTION**************************//
 
 function printToDom(input, id){
-    document.getElementById(id).innerHTML += input;
+    if(document.getElementById(id)){
+        document.getElementById(id).innerHTML += input;
+    }
+    
 }
 
 // *************************Band-Members Data*************************
@@ -102,7 +105,7 @@ var tourArray = [
 
 function tourDomString(array){
     for(var i = 0; i < array.length; i++){
-            var details = array[i]
+            var details = array[i];
             var tourString = "";
             tourString += "<div class = 'tourCard'>";
             tourString += "<h3>" + details.date + "</h3>";
