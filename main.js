@@ -80,3 +80,39 @@ var tourArray = [
 ]
 
 // **************************************************************//
+
+//****************Albums-Data******************* */
+
+var albumsArray = [
+    {
+    title:"",
+    releaseDate:"",
+    image:''
+},
+{
+    title:
+    releaseDate:
+    image:
+},
+{
+    title:
+    releaseDate:
+    image:
+},
+{
+    title:
+    releaseDate:
+    image:
+},
+{
+    title:
+    releaseDate:
+    image:
+},
+{
+    title:
+    releaseDate:
+    image:
+},
+
+]
