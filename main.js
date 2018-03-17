@@ -165,10 +165,21 @@ var albumsArray = [
     {
         title:"Watch Ya Mouth",
         releaseDate:"03-29-11",
+        tracks:"t1",
         image:"/image/ugly-frog-images.jpg"
     }
     
     ];
+
+    var tracks= [
+    {
+        id:"t1",
+        title:"what ya mouth",
+        length: "1 min 30sec"
+    },
+]
+
+    
 
 // ***************************NEWS DATA***************************//
 
