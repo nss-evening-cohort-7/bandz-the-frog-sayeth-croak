@@ -36,24 +36,25 @@ var bandMembers = [
 
 // ---------------------------------------------------------
 
-// ------------------------Members DOM String---------------
+// **************************PRINT TO DOM FUNCTION**************************//
+
+function printToDom(input, id){
+    document.getElementById(id).innerHTML += input;
+}
+
+// ****************************Members DOM String************************
 
 function memberDom (array){
     for(var i=0; i<array.length; i++){
         var string = array[i].name;
         string += array[i].instrument;
         string += array[i].bio;
-        console.log(string);
+        printToDom(string, "band-members");
     }
 }
 
 memberDom(bandMembers);
 
-// **************************PRINT TO DOM FUNCTION**************************//
-
-// function printToDom(input, id){
-//     document.getElementById(id).innerHTML += input;
-// }
 // ***************************TOUR DATA***************************
 
 var tourArray = [
