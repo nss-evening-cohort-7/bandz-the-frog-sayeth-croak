@@ -1,5 +1,13 @@
+// **************************PRINT TO DOM FUNCTION**************************//
 
-// Band-Members Data-------------------------------------
+function printToDom(input, id){
+    if(document.getElementById(id)){
+        document.getElementById(id).innerHTML += input;
+    }
+    
+}
+
+// *************************Band-Members Data*************************
 
 var bandMembers = [
     {
@@ -34,11 +42,25 @@ var bandMembers = [
     }
 ];
 
-// **************************PRINT TO DOM FUNCTION**************************//
+// ***************************************************************
 
-function printToDom(input, id){
-    document.getElementById(id).innerHTML += input;
+
+// ****************************Members DOM String************************
+
+function memberDomString(array){
+    for(var i=0; i<array.length; i++){
+        var item = array[i];
+        var string = "<img src=" + item.image + " width='400px' height='400px'>";
+        string += "<h2>" + item.name + "</h2>";
+        string += "<h3>" + item.instrument + "</h3>";
+        string += "<p>" + item.bio + "</p>";
+        printToDom(string, "band-members");
+    }
 }
+
+memberDomString(bandMembers);
+
+
 // ***************************TOUR DATA***************************
 
 var tourArray = [
@@ -83,7 +105,7 @@ var tourArray = [
 
 function tourDomString(array){
     for(var i = 0; i < array.length; i++){
-            var details = array[i]
+            var details = array[i];
             var tourString = "";
             tourString += "<div class = 'tourCard'>";
             tourString += "<h3>" + details.date + "</h3>";
