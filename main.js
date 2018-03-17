@@ -166,7 +166,7 @@ var albumsArray = [
         title:"Watch Ya Mouth",
         releaseDate:"03-29-11",
         image:"/image/ugly-frog-images.jpg"
-    },
+    }
     
     ];
 
