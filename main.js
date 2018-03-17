@@ -130,7 +130,45 @@ var photosArray = [
         photoLink: '/images/malevolentia-small-pose-6.jpg',
         photoCaption: "Still for webzine METALMONSTERS"
     }
-];
+]
+    
+// **************************************************************//
+
+//****************Albums-Data******************* */
+
+var albumsArray = [
+    {
+        title:"Zoo Life",
+        releaseDate:"12-18-17",
+        image:"/images/frog-album-cover-1.jpg"
+    },
+    {
+        title:"The Day That Nature Strikes back",
+        releaseDate:"11-10-16",
+        image:"/images/Frog-album-2.jpg"
+    },
+    {
+        title:"Swamp Killer",
+        releaseDate:"9-9-15",
+        image:"/image/Frog-album-3.jpg"
+    },
+    {
+        title:"Toad King",
+        releaseDate:"10-17-14",
+        image:"/image/toad-king-album.jpg"
+    },
+    {
+        title:"Frog Montana",
+        releaseDate:"4-08-12",
+        image:"/image/Frog-montana.jpg"
+    },
+    {
+        title:"Watch Ya Mouth",
+        releaseDate:"03-29-11",
+        image:"/image/ugly-frog-images.jpg"
+    }
+    
+    ];
 
 // ***************************NEWS DATA***************************//
 
@@ -161,3 +199,4 @@ var newsData = [
         story: 'In a new interview with TME’s Kevin Croaky, world renowned religious leader Pope Francis talked about his influential career. The 1982 track “Hoppy Hops” has been sampled over 80 times across genres, though they’ve only recently begun collecting royalties more than 30 years later. In 2016, Thy Frog Sayeth Croak sampled “Hoppy Hops” for their The Day that Nature Strikes Back single “Straight Croakin.” “When I heard [The Frog] do it I just thought, well, that’s good for me,” he said. “It’s a blessing,” he said.',
     },
 ];
+
