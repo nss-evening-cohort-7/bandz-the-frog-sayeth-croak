@@ -138,34 +138,34 @@ var photosArray = [
 
 var albumsArray = [
     {
-    title:"",
-    releaseDate:"",
-    image:''
-},
-{
-    title:
-    releaseDate:
-    image:
-},
-{
-    title:
-    releaseDate:
-    image:
-},
-{
-    title:
-    releaseDate:
-    image:
-},
-{
-    title:
-    releaseDate:
-    image:
-},
-{
-    title:
-    releaseDate:
-    image:
-},
-
-]
+        title:"Zoo Life",
+        releaseDate:"12-18-17",
+        image:"/images/frog-album-cover-1.jpg"
+    },
+    {
+        title:"The Day That Nature Strikes back",
+        releaseDate:"11-10-16",
+        image:"/images/Frog-album-2.jpg"
+    },
+    {
+        title:"Swamp Killer",
+        releaseDate:"9-9-15",
+        image:"/image/Frog-album-3.jpg"
+    },
+    {
+        title:"Toad King",
+        releaseDate:"10-17-14",
+        image:"/image/toad-king-album.jpg"
+    },
+    {
+        title:"Frog Montana",
+        releaseDate:"4-08-12",
+        image:""
+    },
+    {
+        title:"",
+        releaseDate:"03-29-11",
+        image:""
+    },
+    
+    ]
