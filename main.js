@@ -79,4 +79,33 @@ var tourArray = [
     }
 ]
 
-// **************************************************************//
+
+// ***************************NEWS DATA***************************//
+
+var newsData = [
+    {
+        headline: 'Thy Frog Sayeth Croak Announce Summer Tour',
+        date: '3/14/18',
+        story: 'Thy Frog Sayeth Croak has announced three new one-off shows in Tennessee, celebrating their upcoming album Boarding House Reach. The intimate concert performances are set to take place August 1, 16, and 24 as well as September 9 and 19, respectively. They will be TFSC’s first live concert to feature new music from the new album, as well as their first with a new band: Shovel Nose (drums), Gastrotheca (guitar), and Goliath (bass). So far, they have shared several singles from the new album: “Connected by Love,” “Respect Commander,” “Corporation,” and “Over and Over and Over.” They embark on tour in August.',
+    },
+    {
+        headline: 'Shovel Nose Shares New "Feast of Beasts" Video',
+        date: '3/6/18',
+        story: 'Shovel Nose has dropped a new video for the track “Feast of Beasts,” which features Dâm Croak. Directed by Eric Ribbet Johnson (he worked on the colorful video for Pom Pom’s “Jell-O”), the VHS-quality clip follows Jeremiah the Bullfrog wandering through the Hollywood Walk of Fame. Watch the visuals below. "Feast of Beasts" is from his latest record, 2017’s Dedicated to Hypnotoad. Red Moon and Shovel Nose recently shared the video for their collaborative track “At Least the Sky Is Blue,” which featured Red Moon as Liza Minnelli and Shovel Nose as Elizabeth Taylor.',
+    },
+    {
+        headline: 'Poison Dart becomes Poisoned by Own Poison',
+        date: '2/28/18',
+        story: 'It started as a croak and ended with a whisper. We feared the worst; the worst came true. Poison Dart has become poisoned by his own poison. Our legendary triangle player had been feeling ill for a while now, but no one had expected poison. He has been bedridden for a few days now and is looking poorer in condition. Fortunately, this means our band will need a new trianglist to thrash with us on our summer tour. Sign up by subscribing below.',
+    },
+    {
+        headline: 'Goliath Out on Bail',
+        date: '2/17/17',
+        story: 'Goliath (born Lamar Sean Goldean) has been released from jail after posting bail, as FMZ reports and Toadstool can confirm via court records. Bail was set at $75,000. The 42-year-old bassist was initially arrested on January 24, in Tallahassee, Florida before being extradited to Ware County in Georgia. Goldean was arrested on charges of battery of an inanimate object (toad-like violence) following an incident at a hotel located in Ware County with a television. After being initially held without bail, his bail amount was set during a court hearing on Monday, March 12. Toadstool has reached out to representatives for Goliath for further comment.',
+    },
+    {
+        headline: 'Pope Francis Calls TFSC’s “Hoppy Hops” Samples “a Blessing”',
+        date: '2/4/18',
+        story: 'In a new interview with TME’s Kevin Croaky, world renowned religious leader Pope Francis talked about his influential career. The 1982 track “Hoppy Hops” has been sampled over 80 times across genres, though they’ve only recently begun collecting royalties more than 30 years later. In 2016, Thy Frog Sayeth Croak sampled “Hoppy Hops” for their The Day that Nature Strikes Back single “Straight Croakin.” “When I heard [The Frog] do it I just thought, well, that’s good for me,” he said. “It’s a blessing,” he said.',
+    },
+];
