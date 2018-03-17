@@ -77,8 +77,60 @@ var tourArray = [
         venue: "Tin Dog Tavern",
         tickets: 'Tickets'
     }
-]
+];
 
+// ******************************* TOUR DOM STRING *******************************//
+
+function tourDomString(array){
+    for(var i = 0; i < array.length; i++){
+            var details = array[i]
+            var tourString = "";
+            tourString += "<div class = 'tourCard'>";
+            tourString += "<h3>" + details.date + "</h3>";
+            tourString += "<h4>" + details.time + "</h4>";
+            tourString += "<h4>" + details.city + "</h4>";
+            tourString += "<h4>" + details.venue + "</h4>";
+            tourString += "</div>";
+            tourString += "<a href='#'>" + details.tickets + "</a>";
+            printToDom(tourString, 'tour-container');
+    }
+}
+tourDomString(tourArray);
+
+// ***************************PHOTO DATA***************************
+
+var photosArray = [
+    {
+        date: '08/01/12',
+        photoLink: '/images/malevolentia-small-gigs-3.jpg',
+        photoCaption: 'Our lily pad at Tin Dog'
+    },
+    {
+        date: '09/19/17',
+        photoLink: '/images/malevolentia-small-pose-1.jpg',
+        photoCaption: 'Haunting the cemetery'
+    },
+    {
+        date: '08/24/15',
+        photoLink: '/images/malevolentia-small-gigs-3.jpg',
+        photoCaption: 'Moment in Screechsong at Back Door'
+    },
+    {
+        date: '08/16/16',
+        photoLink: '/images/malevolentia-small-pose-4.jpg',
+        photoCaption: 'Still of METALMADNESS MAGAZINE'
+    },
+    {
+        date: '09/09/13',
+        photoLink: '/images/malevolentia-small-pose-3.jpg',
+        photoCaption: "In tunel at late night den Copenhagen"
+    },
+    {
+        date: '08/01/08',
+        photoLink: '/images/malevolentia-small-pose-6.jpg',
+        photoCaption: "Still for webzine METALMONSTERS"
+    }
+];
 
 // ***************************NEWS DATA***************************//
 
