@@ -8,27 +8,6 @@ As a team, build the web site for the band name your team has been given. The te
 
 Pick a theme that the team likes. A good place for inspiration is the [Wordpress themes](https://wordpress.org/themes/) site. Do not purchase, or copy the theme code, just browse them for inspiration. Everyone should agree on a theme and ensure that each page is consistent with the colors, fonts, and/or images chosen.
 
-Theme
-    -- murky, green, dark, kitschy, sorta bad taste, probably designed by a fan who is a newbie coder (like us!)
-
-Colors 
-    -- black, dark grey: #333, dark green: #258e2f, lighter grey: #5e5e5e, and use these sparingly: neon green: #7fff00, rust: #ac5b10, white
-
-Fonts (headers and paragraphs):
-    -- h1:  font-family: 'MedievalSharp', cursive;
-    h2, h3, h4, h5, h6, p, etc: font-family: 'Oswald', sans-serif;
-
-Images
-    -- border: 5px solid black,
-    and background color or padding immediately around image is the lighter grey: #5e5e5e --- AND ON HOVER---background-color or padding: black;
-    border: 3px solid #7fff00; (neon green)
-
-Buttons
-    -- no buttons just floating text 
-
-Lists
-    -- that awful rust color and let's talk about keepiing the tacky bullets for anything that's not the nav bar
-
 Remeber this is a band website - there will be EXTRA BONUS points given to your team if you make your site look like a myspace page.
 
 * Your team can only have 1 CSS file - main.css
