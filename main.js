@@ -44,4 +44,24 @@ var tourArray = [
     }
 ]
 
-// **************************************************************//
+// ******************************* TOUR DOM STRING *******************************//
+
+function tourDomString(array){
+    // loop through the tour array
+    for(var i = 0; i < array.length; i++){
+        var tourDetails = array[i];
+        // then loop through each index of tour array
+        for(var j = 0; j < tourDetails.length; j++){
+            var tourString = "";
+            tourString += "<div class='tourCard'>";
+            tourString += "<h3>" + tourDetails[j].date + "</h3>";
+            tourString += "<h4>" + tourDetails.time[j] + "</h4>";
+            tourString += "<h4>" + tourDetails.city[j] + "</h4>";
+            tourString += "<h4>" + tourDetails.venue[j] + "</h4>";
+            // domString += "<a href='#'>" + tourDetails.tickets + "</a>";
+            tourString += "</div>";
+        }
+        console.log(tourString);
+    }
+    printToDom(tourString, tour-container);
+}
