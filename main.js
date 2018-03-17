@@ -46,9 +46,11 @@ function printToDom(input, id){
 
 function memberDom (array){
     for(var i=0; i<array.length; i++){
-        var string = array[i].name;
-        string += array[i].instrument;
-        string += array[i].bio;
+        var item = array[i];
+        var string = "<img src='" + item.image + "' width='400px' height='400px'>";
+        string += "<h2>" + item.name + "</h2>";
+        string += "<h3>" + item.instrument + "</h3>";
+        string += "<p>" + item.bio + "</p>";
         printToDom(string, "band-members");
     }
 }
