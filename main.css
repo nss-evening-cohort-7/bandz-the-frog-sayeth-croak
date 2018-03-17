@@ -58,3 +58,9 @@ body {
 .main-nav ul li a:hover {
     text-decoration: underline;
 }
+
+/* --- homepage styles --- */
+#main-slider img {
+    width: 100%;
+    height: auto;
+}
