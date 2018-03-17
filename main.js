@@ -77,7 +77,25 @@ var tourArray = [
         venue: "Tin Dog Tavern",
         tickets: 'Tickets'
     }
-]
+];
+
+// ******************************* TOUR DOM STRING *******************************//
+
+function tourDomString(array){
+    for(var i = 0; i < array.length; i++){
+            var details = array[i]
+            var tourString = "";
+            tourString += "<div class = 'tourCard'>";
+            tourString += "<h3>" + details.date + "</h3>";
+            tourString += "<h4>" + details.time + "</h4>";
+            tourString += "<h4>" + details.city + "</h4>";
+            tourString += "<h4>" + details.venue + "</h4>";
+            tourString += "</div>";
+            tourString += "<a href='#'>" + details.tickets + "</a>";
+            printToDom(tourString, 'tour-container');
+    }
+}
+tourDomString(tourArray);
 
 // ***************************PHOTO DATA***************************
 
@@ -114,6 +132,4 @@ var photosArray = [
     }
 ]
     
-
-
 // **************************************************************//
