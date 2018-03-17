@@ -37,6 +37,7 @@ var bandMembers = [
 // **************************PRINT TO DOM FUNCTION**************************//
 
 function printToDom(input, id){
+    console.log('id', id);
     document.getElementById(id).innerHTML += input;
 }
 // ***************************TOUR DATA***************************
@@ -77,26 +78,32 @@ var tourArray = [
         venue: "Tin Dog Tavern",
         tickets: 'Tickets'
     }
-]
+];
 
 // ******************************* TOUR DOM STRING *******************************//
 
 function tourDomString(array){
     // loop through the tour array
     for(var i = 0; i < array.length; i++){
-        var tourDetails = array[i];
+        // var tourDetails = array[i];
+        // console.log(tourDetails);
         // then loop through each index of tour array
-        for(var j = 0; j < tourDetails.length; j++){
+        // for(var j = 0; j < tourDetails.length; j++){
+            var details = array[i]
+            console.log(details);
             var tourString = "";
-            tourString += "<div class='tourCard'>";
-            tourString += "<h3>" + tourDetails[j].date + "</h3>";
-            tourString += "<h4>" + tourDetails.time[j] + "</h4>";
-            tourString += "<h4>" + tourDetails.city[j] + "</h4>";
-            tourString += "<h4>" + tourDetails.venue[j] + "</h4>";
-            // domString += "<a href='#'>" + tourDetails.tickets + "</a>";
+            tourString += "<div>";
+            tourString += "<h3>" + details.date + "</h3>";
+            tourString += "<h4>" + details.time + "</h4>";
+            tourString += "<h4>" + details.city + "</h4>";
+            tourString += "<h4>" + details.venue + "</h4>";
             tourString += "</div>";
-        }
-        console.log(tourString);
+            // domString += "<a href='#'>" + tourDetails.tickets + "</a>";
+            console.log(tourString);
+            printToDom(tourString, 'tour-container');
+        // }
     }
-    printToDom(tourString, tour-container);
 }
+tourDomString(tourArray);
+
+
