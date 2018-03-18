@@ -201,7 +201,7 @@ var albumsArray = [
     var tracks= [
     {
         id:"t1",
-        title:"whatch ya mouth",
+        title:"Freaky Frog",
         length: "4 min 25sec"
     },
     {
