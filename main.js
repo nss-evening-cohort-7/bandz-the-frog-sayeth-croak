@@ -176,35 +176,77 @@ var albumsArray = [
     {
         title:"Zoo Life",
         releaseDate:"12-18-17",
+        tracks:["t1", "t2", "t3", "t4","t5","t6" ], 
         image:"/images/frog-album-cover-1.jpg"
     },
     {
         title:"The Day That Nature Strikes back",
         releaseDate:"11-10-16",
+        tracks:["t5", "t6", "t4", "t3","t2","t1" ], 
         image:"/images/Frog-album-2.jpg"
     },
     {
         title:"Swamp Killer",
         releaseDate:"9-9-15",
+        tracks:["t4", "t3", "t5", "t6","t1","t2" ], 
         image:"/image/Frog-album-3.jpg"
     },
     {
         title:"Toad King",
         releaseDate:"10-17-14",
+        tracks:["t3", "t1", "t2", "t5","t6","t4" ], 
         image:"/image/toad-king-album.jpg"
     },
     {
         title:"Frog Montana",
         releaseDate:"4-08-12",
+        tracks:["t2", "t5", "t6", "t4","t3","t1" ], 
         image:"/image/Frog-montana.jpg"
     },
     {
         title:"Watch Ya Mouth",
         releaseDate:"03-29-11",
+        tracks:["t6", "t4", "t1", "t2","t3","t5" ], 
         image:"/image/ugly-frog-images.jpg"
     }
     
     ];
+
+    var tracks= [
+    {
+        id:"t1",
+        title:"Freaky Frog",
+        length: "4 min 25sec"
+    },
+    {
+        id:"t2",
+        title:"Shut The Frog Up",
+        length: "2 min 48sec"
+    },
+    {
+        id:"t3",
+        title:"Feeling Froggy",
+        length: "3 min 45sec"
+    },
+    {
+        id:"t4",
+        title:"Croak The Frog",
+        length: "3 min 30sec"
+    },
+    {
+        id:"t5",
+        title:"Killer Frog",
+        length: "4 min 15sec"
+    },
+    {
+        id:"t6",
+        title:"Return of the Frogs",
+        length: "2 min 30sec"
+    }
+    
+]
+
+    
 
 // ***************************NEWS DATA***************************//
 
