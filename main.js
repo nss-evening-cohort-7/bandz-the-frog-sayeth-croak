@@ -241,11 +241,10 @@ var newsData = [
 function newsDomString(array){
     for(var i=0; i<array.length; i++){
         var item = array[i];
-        var string = "<img src=" + item.image + " width='400px' height='400px'>";
-        string += "<h2>" + item.headline + "</h2>";
+        var string = "<h2>" + item.headline + "</h2>";
         string += "<h3>" + item.date + "</h3>";
         string += "<p>" + item.story + "</p>";
-        printToDom(string, "news");
+        printToDom(string, "news-container");
     }
 }
 
