@@ -69,4 +69,8 @@ body {
 
 .footer-container{
     background: #353c25;
+    position: relative;
+    bottom: 0;
+    width:100%;
+    height:200px;
 }
