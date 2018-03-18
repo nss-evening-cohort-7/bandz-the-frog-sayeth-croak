@@ -134,7 +134,7 @@ var photosArray = [
     },
     {
         date: '08/24/15',
-        photoLink: '/images/malevolentia-small-gigs-3.jpg',
+        photoLink: '/images/malevolentia-small-gigs-5.jpg',
         photoCaption: 'Moment in Screechsong at Back Door'
     },
     {
