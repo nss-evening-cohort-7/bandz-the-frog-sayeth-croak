@@ -222,6 +222,8 @@ var newsData = [
     },
 ];
 
+// ******************************* NEWS DOM STRING *******************************//
+
 function newsDomString(array){
     for(var i=0; i<array.length; i++){
         var item = array[i];
@@ -234,3 +236,5 @@ function newsDomString(array){
 }
 
 newsDomString(newsData);
+
+// *******************************************************************************//
