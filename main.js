@@ -130,11 +130,11 @@ var photosArray = [
     {
         date: '09/19/17',
         photoLink: '/images/malevolentia-small-pose-1.jpg',
-        photoCaption: 'Haunting the cemetery'
+        photoCaption: 'Haunting in cemetery'
     },
     {
         date: '08/24/15',
-        photoLink: '/images/malevolentia-small-gigs-3.jpg',
+        photoLink: '/images/malevolentia-small-gigs-5.jpg',
         photoCaption: 'Moment in Screechsong at Back Door'
     },
     {
@@ -145,7 +145,7 @@ var photosArray = [
     {
         date: '09/09/13',
         photoLink: '/images/malevolentia-small-pose-3.jpg',
-        photoCaption: "In tunel at late night den Copenhagen"
+        photoCaption: "In tunel at late night i København"
     },
     {
         date: '08/01/08',
@@ -153,6 +153,20 @@ var photosArray = [
         photoCaption: "Still for webzine METALMONSTERS"
     }
 ]
+
+// ******************************* PHOTOS DOM STRING *******************************//
+
+function photosDomString(array){
+    for(var i = 0; i < array.length; i++){
+            var photoDetails = array[i];
+            var photoString = "";
+            photoString += "<h3>" + photoDetails.date + "</h3>";
+            photoString += "<img src=" + photoDetails.photoLink + ">";
+            photoString += "<h4>" + photoDetails.photoCaption + "</h4>";
+            printToDom(photoString, 'photos-container');
+    }
+}
+photosDomString(photosArray);
     
 // **************************************************************//
 
