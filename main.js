@@ -242,7 +242,7 @@ var albumsArray = [
         id:"t6",
         title:"Return of the Frogs",
         length: "2 min 30sec"
-    },
+    }
     
 ]
 
