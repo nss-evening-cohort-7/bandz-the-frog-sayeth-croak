@@ -236,3 +236,18 @@ var newsData = [
     },
 ];
 
+// ******************************* NEWS DOM STRING *******************************//
+
+function newsDomString(array){
+    for(var i=0; i<array.length; i++){
+        var item = array[i];
+        var string = "<h2>" + item.headline + "</h2>";
+        string += "<h3>" + item.date + "</h3>";
+        string += "<p>" + item.story + "</p>";
+        printToDom(string, "news-container");
+    }
+}
+
+newsDomString(newsData);
+
+// *******************************************************************************//
