@@ -147,3 +147,26 @@ p {
 
 
 /* ----------PHOTOS--------- */
+
+#photos-container {
+    display: flex;  
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-direction: row; 
+    margin: 0 auto;
+}
+
+.photoCard {
+    flex: 0 0 auto;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#pad-scroll-instruction {
+    margin-left: 15px;
+}
+    
+#photo-page-border {
+    border: 2px solid rgb(50, 61, 61);
+}
