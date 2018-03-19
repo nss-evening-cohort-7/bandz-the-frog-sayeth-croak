@@ -3,7 +3,8 @@
 function printToDom(input, id){
     if(document.getElementById(id)){
         document.getElementById(id).innerHTML += input;
-    } 
+    }
+    
 }
 
 // *************************Band-Members Data*************************
@@ -41,8 +42,10 @@ var bandMembers = [
     }
 ];
 
+// ***************************************************************
 
-// **************************** Members DOM String ************************
+
+// ****************************Members DOM String************************
 
 function memberDomString(array){
     for(var i=0; i<array.length; i++){
@@ -54,6 +57,7 @@ function memberDomString(array){
         printToDom(string, "band-members");
     }
 }
+
 memberDomString(bandMembers);
 
 
@@ -107,15 +111,15 @@ function tourDomString(array){
             tourString += "<h3>" + details.date + "</h3>";
             tourString += "<h4>" + details.time + "</h4>";
             tourString += "<h4>" + details.city + "</h4>";
-            tourString += "<h4>" + details.venue + "</h4>";
-            tourString += "</div>";
+            tourString += "<h4>@" + details.venue + "</h4>";
             tourString += "<a href='#'>" + details.tickets + "</a>";
+            tourString += "</div>";
             printToDom(tourString, 'tour-container');
     }
 }
 tourDomString(tourArray);
 
-// *************************** PHOTO DATA ***************************
+// ***************************PHOTO DATA***************************
 
 var photosArray = [
     {
@@ -148,7 +152,7 @@ var photosArray = [
         photoLink: '/images/malevolentia-small-pose-6.jpg',
         photoCaption: "Still for webzine METALMONSTERS"
     }
-];
+]
 
 // ******************************* PHOTOS DOM STRING *******************************//
 
@@ -163,9 +167,10 @@ function photosDomString(array){
     }
 }
 photosDomString(photosArray);
+    
+// **************************************************************//
 
-
-//********************************** Albums-Data *********************************** */
+//****************Albums-Data******************* */
 
 var albumsArray = [
     {
@@ -205,9 +210,9 @@ var albumsArray = [
         image:"/images/ugly-frog-images.jpg"
     }
     
-];
+    ];
 
-var tracks= [
+    var tracks= [
     {
         id:"t1",
         title:"Freaky Frog",
@@ -238,9 +243,10 @@ var tracks= [
         title:"Return of the Frogs",
         length: "2 min 30sec"
     }
-];
+    
+]
 
-//********************************* Albums Dom String ***************************//
+//*********************************ALbums Dom String***************************//
 
 function trackString(array){
     var trackString = "<ol>";
@@ -264,9 +270,10 @@ function albumsDomString(array){
 }
 }
 albumsDomString(albumsArray);
+//********************************************************* *//
+    
 
-
-// *************************** NEWS DATA ***************************//
+// ***************************NEWS DATA***************************//
 
 var newsData = [
     {
@@ -293,7 +300,7 @@ var newsData = [
         headline: 'Pope Francis Calls TFSC’s “Hoppy Hops” Samples “a Blessing”',
         date: '2/4/18',
         story: 'In a new interview with TME’s Kevin Croaky, world renowned religious leader Pope Francis talked about his influential career. The 1982 track “Hoppy Hops” has been sampled over 80 times across genres, though they’ve only recently begun collecting royalties more than 30 years later. In 2016, Thy Frog Sayeth Croak sampled “Hoppy Hops” for their The Day that Nature Strikes Back single “Straight Croakin.” “When I heard [The Frog] do it I just thought, well, that’s good for me,” he said. “It’s a blessing,” he said.'
-    }
+    },
 ];
 
 // ******************************* NEWS DOM STRING *******************************//
