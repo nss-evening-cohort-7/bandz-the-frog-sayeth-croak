@@ -189,25 +189,25 @@ var albumsArray = [
         title:"Swamp Killer",
         releaseDate:"9-9-15",
         tracks:["t4", "t3", "t5", "t6","t1","t2" ], 
-        image:"/image/Frog-album-3.jpg"
+        image:"/images/Frog-album-3.jpg"
     },
     {
         title:"Toad King",
         releaseDate:"10-17-14",
         tracks:["t3", "t1", "t2", "t5","t6","t4" ], 
-        image:"/image/toad-king-album.jpg"
+        image:"/images/toad-king-album.jpg"
     },
     {
         title:"Frog Montana",
         releaseDate:"4-08-12",
         tracks:["t2", "t5", "t6", "t4","t3","t1" ], 
-        image:"/image/Frog-montana.jpg"
+        image:"/images/Frog-montana.jpg"
     },
     {
         title:"Watch Ya Mouth",
         releaseDate:"03-29-11",
         tracks:["t6", "t4", "t1", "t2","t3","t5" ], 
-        image:"/image/ugly-frog-images.jpg"
+        image:"/images/ugly-frog-images.jpg"
     }
     
 ];
@@ -244,7 +244,38 @@ var tracks= [
         length: "2 min 30sec"
     }
     
+<<<<<<< HEAD
 ] 
+=======
+]
+
+//*********************************ALbums Dom String***************************//
+
+function trackString(array){
+    var trackString = "<ol>";
+    for(var i=0; i<array.length; i++){
+        var track = array[i];
+        trackString += "<li>" + track.title + "</li>";
+    }
+    trackString += "</ol>";
+    return trackString;
+}
+
+function albumsDomString(array){
+    for(var i=0; i<array.length;i++){
+        var albumsDetail = array[i];
+        var albumsString = "";
+        albumsString += "<img src ='" + albumsDetail.image + "'/>";
+        albumsString += "<h2>" + albumsDetail.title + "</h2>";
+        albumsString += "<h3>" + albumsDetail.releaseDate + "</h3>";
+        albumsString += "<h4>" + trackString(tracks) + "</h4>";
+        printToDom(albumsString, 'albums-container');
+}
+}
+albumsDomString(albumsArray);
+//********************************************************* *//
+    
+>>>>>>> master
 
 // ***************************NEWS DATA***************************//
 
@@ -291,3 +322,7 @@ function newsDomString(array){
 newsDomString(newsData);
 
 // *******************************************************************************//
+
+
+
+

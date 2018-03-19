@@ -1,63 +1,48 @@
+/* Theme
+Colors: black, #258E2F, rgb(128, 255, 0), white, red for blood, #9e9e9e, rgb(50, 61, 61)
+Fonts: MedievalSharp, Creepster, Oswald
+Images: No specs
+Links: 
+Lists: Numbered
+Alignment: The container is centered. Use unique IDs to style more specifically.
+*/
+
+
+/* ----------UNIVERSAL CLASSES--------- */
+
+
+h1 {
+    font-family: 'Creepster', cursive;
+    color: red;
+    text-align: center;
+    font-size: 5em;
+}
 
 body {
+    background-color: rgb(50, 61, 61);
     margin: 0;
     padding: 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
 }
 
-/* ----------NAVBAR--------- */
-/* 
-#ghost-nav {
-    height: 100px;
-    width: 100%;
+a {
+    color: rgb(128, 255, 0);
 }
 
-.main-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    width: 100%;
-    height: 100px;
+h2,
+h3,
+h4,
+h5,
+p {
+    letter-spacing: .15em;  
 }
 
-.main-nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
 }
-
-.logo-left {
-    display: flex;
-}
-
-.logo-left li {
-    padding-right: 50px;
-}
-
-.logo-right {
-    display: flex;
-}
-
-.logo-right li {
-    padding-left: 50px;
-}
-
-.main-nav ul li {
-    font-size: 28px;
-    list-style-type: none;
-}
-
-.main-nav ul li a {
-    text-decoration: none;
-}
-
-.main-nav ul li a:hover {
-    text-decoration: underline;
-} */
 
 /* ----------NAVBAR--------- */
 
@@ -131,6 +116,7 @@ body {
     height: auto;
 }
 
+<<<<<<< HEAD
 /* ----------------------------FOOTER--------------------------------- */
 
 .footer-container{
@@ -158,3 +144,21 @@ body {
 }
 
 
+=======
+/* ----------HOME--------- */
+
+
+/* ----------NEWS--------- */
+
+
+/* ----------BAND MEMBERS--------- */
+
+
+/* ----------ALBUMS--------- */
+
+
+/* ----------TOUR--------- */
+
+
+/* ----------PHOTOS--------- */
+>>>>>>> master
