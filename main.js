@@ -3,8 +3,7 @@
 function printToDom(input, id){
     if(document.getElementById(id)){
         document.getElementById(id).innerHTML += input;
-    }
-    
+    } 
 }
 
 // *************************Band-Members Data*************************
@@ -42,8 +41,6 @@ var bandMembers = [
     }
 ];
 
-// ***************************************************************
-
 
 // **************************** Members DOM String ************************
 
@@ -57,7 +54,6 @@ function memberDomString(array){
         printToDom(string, "band-members");
     }
 }
-
 memberDomString(bandMembers);
 
 
@@ -119,7 +115,7 @@ function tourDomString(array){
 }
 tourDomString(tourArray);
 
-// ***************************PHOTO DATA***************************
+// *************************** PHOTO DATA ***************************
 
 var photosArray = [
     {
@@ -152,7 +148,7 @@ var photosArray = [
         photoLink: '/images/malevolentia-small-pose-6.jpg',
         photoCaption: "Still for webzine METALMONSTERS"
     }
-]
+];
 
 // ******************************* PHOTOS DOM STRING *******************************//
 
@@ -167,10 +163,9 @@ function photosDomString(array){
     }
 }
 photosDomString(photosArray);
-    
-// **************************************************************//
 
-//****************Albums-Data******************* */
+
+//********************************** Albums-Data *********************************** */
 
 var albumsArray = [
     {
@@ -243,9 +238,9 @@ var tracks= [
         title:"Return of the Frogs",
         length: "2 min 30sec"
     }
-]
+];
 
-//*********************************ALbums Dom String***************************//
+//********************************* Albums Dom String ***************************//
 
 function trackString(array){
     var trackString = "<ol>";
@@ -269,11 +264,9 @@ function albumsDomString(array){
 }
 }
 albumsDomString(albumsArray);
-//********************************************************* *//
-    
 
 
-// ***************************NEWS DATA***************************//
+// *************************** NEWS DATA ***************************//
 
 var newsData = [
     {
