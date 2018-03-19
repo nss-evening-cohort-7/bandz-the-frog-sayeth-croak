@@ -57,7 +57,6 @@ function memberDomString(array){
         string += "<p>" + item.bio + "</p>";
         string += "</div>"
         printToDom(string, "band-members");
-        console.log(string);
     }
 }
 
