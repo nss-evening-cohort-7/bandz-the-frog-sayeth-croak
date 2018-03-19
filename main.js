@@ -254,11 +254,9 @@ function trackString(array){
         var track = array[i];
         trackString += "<li>" + track.title + "</li>";
     }
-    trackString += "</ol";
+    trackString += "</ol>";
     return trackString;
 }
-
-console.log(trackString(tracks));
 
 function albumsDomString(array){
     for(var i=0; i<array.length;i++){
