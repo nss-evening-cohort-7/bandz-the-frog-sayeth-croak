@@ -248,14 +248,26 @@ var albumsArray = [
 
 //*********************************ALbums Dom String***************************//
 
+function trackString(array){
+    var trackString = "<ol>";
+    for(var i=0; i<array.length; i++){
+        var track = array[i];
+        trackString += "<li>" + track.title + "</li>";
+    }
+    trackString += "</ol";
+    return trackString;
+}
+
+console.log(trackString(tracks));
+
 function albumsDomString(array){
-    for(var i=0;i<array.length;i++){
+    for(var i=0; i<array.length;i++){
         var albumsDetail = array[i];
         var albumsString = "";
         albumsString += "<img src ='" + albumsDetail.image + "'/>";
-        albumsString += "<h4>" + albumsDetail.title + "</h4>";
-        albumsString += "<h4>" + albumsDetail.releaseDate + "</h4>";
-        albumsString += "<h4>" + albumsDetail.tracks + "</h4>";;
+        albumsString += "<h2>" + albumsDetail.title + "</h2>";
+        albumsString += "<h3>" + albumsDetail.releaseDate + "</h3>";
+        albumsString += "<h4>" + trackString(tracks) + "</h4>";
         printToDom(albumsString, 'albums-container');
 }
 }
