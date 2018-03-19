@@ -50,11 +50,14 @@ var bandMembers = [
 function memberDomString(array){
     for(var i=0; i<array.length; i++){
         var item = array[i];
-        var string = "<img src=" + item.image + " width='400px' height='400px'>";
+        var string = '<div class="memberCard">';
+        string += "<img src=" + item.image + " width='400px' height='400px'>";
         string += "<h2>" + item.name + "</h2>";
         string += "<h3>" + item.instrument + "</h3>";
         string += "<p>" + item.bio + "</p>";
+        string += "</div>"
         printToDom(string, "band-members");
+        console.log(string);
     }
 }
 
