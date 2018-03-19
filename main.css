@@ -132,3 +132,15 @@ p {
 
 
 /* ----------PHOTOS--------- */
+
+/* #photos-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-content: center;
+} */
+
+.photoCard {
+    background-color: rgb(128, 255, 0);
+}
+    
