@@ -45,7 +45,7 @@ var bandMembers = [
 // ***************************************************************
 
 
-// ****************************Members DOM String************************
+// **************************** Members DOM String ************************
 
 function memberDomString(array){
     for(var i=0; i<array.length; i++){
@@ -210,9 +210,9 @@ var albumsArray = [
         image:"/image/ugly-frog-images.jpg"
     }
     
-    ];
+];
 
-    var tracks= [
+var tracks= [
     {
         id:"t1",
         title:"Freaky Frog",
@@ -244,9 +244,7 @@ var albumsArray = [
         length: "2 min 30sec"
     }
     
-]
-
-    
+] 
 
 // ***************************NEWS DATA***************************//
 
@@ -275,7 +273,7 @@ var newsData = [
         headline: 'Pope Francis Calls TFSC’s “Hoppy Hops” Samples “a Blessing”',
         date: '2/4/18',
         story: 'In a new interview with TME’s Kevin Croaky, world renowned religious leader Pope Francis talked about his influential career. The 1982 track “Hoppy Hops” has been sampled over 80 times across genres, though they’ve only recently begun collecting royalties more than 30 years later. In 2016, Thy Frog Sayeth Croak sampled “Hoppy Hops” for their The Day that Nature Strikes Back single “Straight Croakin.” “When I heard [The Frog] do it I just thought, well, that’s good for me,” he said. “It’s a blessing,” he said.'
-    },
+    }
 ];
 
 // ******************************* NEWS DOM STRING *******************************//
