@@ -243,10 +243,6 @@ var tracks= [
         title:"Return of the Frogs",
         length: "2 min 30sec"
     }
-    
-<<<<<<< HEAD
-] 
-=======
 ]
 
 //*********************************ALbums Dom String***************************//
@@ -275,7 +271,7 @@ function albumsDomString(array){
 albumsDomString(albumsArray);
 //********************************************************* *//
     
->>>>>>> master
+
 
 // ***************************NEWS DATA***************************//
 
