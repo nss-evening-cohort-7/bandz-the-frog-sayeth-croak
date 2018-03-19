@@ -160,6 +160,7 @@ function photosDomString(array){
     for(var i = 0; i < array.length; i++){
             var photoDetails = array[i];
             var photoString = "";
+            // photostring += "<"
             photoString += "<h3>" + photoDetails.date + "</h3>";
             photoString += "<img src=" + photoDetails.photoLink + ">";
             photoString += "<h4>" + photoDetails.photoCaption + "</h4>";
