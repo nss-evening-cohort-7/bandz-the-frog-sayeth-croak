@@ -160,9 +160,9 @@ function photosDomString(array){
     for(var i = 0; i < array.length; i++){
             var photoDetails = array[i];
             var photoString = "";
-            var photostring = '<div class="photoCard">';
+            var photoString = '<div class="photoCard">';
             photoString += "<h3>" + photoDetails.date + "</h3>";
-            photoString += "<img src=" + photoDetails.photoLink + ">";
+            photoString += '<img id="photo-page-border" src=' + photoDetails.photoLink + ">";
             photoString += "<h4>" + photoDetails.photoCaption + "</h4>";
             photoString += "</div>";
             printToDom(photoString, 'photos-container');
