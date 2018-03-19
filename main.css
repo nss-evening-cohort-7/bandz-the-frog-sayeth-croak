@@ -4,14 +4,12 @@ Fonts: MedievalSharp, Creepster, Oswald
 Images: No specs
 Links: 
 Lists: Numbered
-
-Use Creepster for h1 tags
-<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
-
+Alignment: The container is centered. Use unique IDs to style more specifically.
 */
 
 
 /* ----------UNIVERSAL CLASSES--------- */
+
 
 h1 {
     font-family: 'Creepster', cursive;
@@ -33,10 +31,18 @@ a {
     color: rgb(128, 255, 0);
 }
 
+h2,
+h3,
+h4,
+h5,
 p {
-    letter-spacing: .2em;
+    letter-spacing: .15em;  
 }
 
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
 
 /* ----------NAVBAR--------- */
 
