@@ -249,7 +249,7 @@ var albumsArray = [
 //*********************************ALbums Dom String***************************//
 
 function albumsDomString(array){
-    for(var i=0;array.length;i++){
+    for(var i=0;i<array.length;i++){
         var albumsDetail = array[i];
         var albumsString = "";
         albumsString += "<img src ='" + albumsDetail.image + "'/>";
