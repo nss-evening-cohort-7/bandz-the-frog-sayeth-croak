@@ -246,6 +246,23 @@ var albumsArray = [
     
 ]
 
+
+//*********************************ALbums Dom String***************************//
+
+function albumsDomString(array){
+    for(var i=0;array.length;i++){
+        var albumsDetail = array[i];
+        var albumsString = "";
+        albumsString += "<img src ='" + albumsDetail.image + "'/>";
+        albumsString += "<h4>" + albumsDetail.title + "</h4>";
+        albumsString += "<h4>" + albumsDetail.releaseDate + "</h4>";
+        albumsString += "<h4>" + albumsDetail.tracks + "</h4>";;
+        printToDom(albumsString, 'albums-container');
+}
+}
+albumsDomString(albumsArray);
+//********************************************************* *//
+ 
 // ***************************NEWS DATA***************************//
 
 var newsData = [
@@ -291,3 +308,7 @@ function newsDomString(array){
 newsDomString(newsData);
 
 // *******************************************************************************//
+
+
+
+
