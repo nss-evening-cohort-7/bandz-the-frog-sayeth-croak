@@ -124,6 +124,21 @@ p {
 
 /* ----------BAND MEMBERS--------- */
 
+#band-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.memberCard {
+    width: 500px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.memberCard p {
+    text-align: justify;
+}
 
 /* ----------ALBUMS--------- */
 
