@@ -113,6 +113,7 @@ function tourDomString(array){
             tourString += "<h3>" + details.date + "</h3>";
             tourString += "<h4>" + details.time + "</h4>";
             tourString += "<h4>" + details.city + "</h4>";
+            tourString += "<h4>@ " + details.venue + "</h4>";
             tourString += "<h4>@" + details.venue + "</h4>";
             tourString += "<a href='#'>" + details.tickets + "</a>";
             tourString += "</div>";
