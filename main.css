@@ -115,11 +115,6 @@ p {
     width: 100%;
     height: auto;
 }
-/* ----albums styles----- */
-.albums-images {
-    width: 300px;
-    height: 300px;
-}
 /* ----------------------------FOOTER--------------------------------- */
 
 .footer-container{
@@ -176,7 +171,10 @@ p {
 }
 
 /* ----------ALBUMS--------- */
-
+.albums-images {
+    width: 300px;
+    height: 300px;
+}
 
 /* ----------TOUR--------- */
 #tour-container{
