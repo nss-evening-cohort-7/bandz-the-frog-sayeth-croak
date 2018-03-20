@@ -119,4 +119,89 @@ p {
 .albums-images {
     width: 300px;
     height: 300px;
+
+/* ----------------------------FOOTER--------------------------------- */
+
+.footer-container{
+    background: #258E2F;
+    position: relative;
+    bottom: 0;
+    padding-top: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-container h6{
+    font-family: 'Creepster', cursive;
+    color: red;
+    font-size: 55px;
+    margin: 0 auto;
+    padding-left: 46%;
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+
+.form{
+    padding-left: 45%;
+}
+
+.socialIcons{
+    padding-left: 43%;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+}
+
+/* ----------HOME--------- */
+
+
+/* ----------NEWS--------- */
+
+
+/* ----------BAND MEMBERS--------- */
+
+#band-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.memberCard {
+    width: 500px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.memberCard p {
+    text-align: justify;
+}
+
+/* ----------ALBUMS--------- */
+
+
+/* ----------TOUR--------- */
+
+
+/* ----------PHOTOS--------- */
+
+#photos-container {
+    display: flex;  
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-direction: row; 
+    margin: 0 auto;
+}
+
+.photoCard {
+    flex: 0 0 auto;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#pad-scroll-instruction {
+    margin-left: 15px;
+}
+    
+#photo-page-border {
+    border: 2px solid rgb(50, 61, 61);
 }
