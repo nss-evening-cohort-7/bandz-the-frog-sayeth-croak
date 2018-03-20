@@ -150,6 +150,17 @@ p {
 
 
 /* ----------NEWS--------- */
+#headline {
+    color: honeydew;
+}
+
+#datePublished {
+    color: tomato;
+}
+
+#articleContent {
+    color: wheat;
+}
 
 
 /* ----------BAND MEMBERS--------- */

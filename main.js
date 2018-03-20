@@ -313,9 +313,10 @@ var newsData = [
 function newsDomString(array){
     for(var i=0; i<array.length; i++){
         var item = array[i];
-        var string = "<h2>" + item.headline + "</h2>";
-        string += "<h3>" + item.date + "</h3>";
-        string += "<p>" + item.story + "</p>";
+        var string = "<h2 id='headline'>" + item.headline + "</h2>";
+        string += "<h3 id='datePublished'>" + item.date + "</h3>";
+        string += "<p id='articleContent'>" + item.story + "</p>";
+        string += "<br> <hr> <br>";
         printToDom(string, "news-container");
     }
 }
