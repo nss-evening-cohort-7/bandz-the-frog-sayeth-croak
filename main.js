@@ -316,7 +316,11 @@ function newsDomString(array){
         var string = "<h2 id='headline'>" + item.headline + "</h2>";
         string += "<h3 id='datePublished'>" + item.date + "</h3>";
         string += "<p id='articleContent'>" + item.story + "</p>";
-        string += "<br> <hr> <br>";
+        if (i + 1 !== array.length) {
+            string += "<br> <hr> <br>"
+        } else {
+            string += "<br>"
+        }
         printToDom(string, "news-container");
     }
 }
