@@ -267,7 +267,7 @@ function albumsDomString(array){
     for(var i=0; i<array.length;i++){
         var albumsDetail = array[i];
         var albumsString = "";
-        albumsString += "<img src ='" + albumsDetail.image + "'/>";
+        albumsString += "<img class='albums-images'+ src ='" + albumsDetail.image + "'/>";
         albumsString += "<h2>" + albumsDetail.title + "</h2>";
         albumsString += "<h3>" + albumsDetail.releaseDate + "</h3>";
         albumsString += "<h4>" + trackString(tracks) + "</h4>";
